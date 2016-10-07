@@ -18,7 +18,7 @@ class TestGenderExtractorMethods(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_price_extractor(self):
+    def test_gender_extractor(self):
         doc = {'content': 'female ts male gender', 'b': 'world'}
 
         extractor = GenderExtractor().set_metadata({'extractor': 'gender'})
